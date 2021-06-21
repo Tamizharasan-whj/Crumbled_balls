@@ -31,7 +31,7 @@ function setup() {
     DustbinWall = new Ground(600,400,15,150);
     DustbinWall1 = new Ground(800,400,15,150);
 
-   // ball = new Ball(100,100,20);
+
     ball = Bodies.circle(100,100,15,Ball_options);
     World.add(world,ball);
 
